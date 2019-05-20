@@ -1,0 +1,159 @@
+html{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    min-height: 80px;
+    min-width: 100vw;
+    border: none;
+    margin-left: -10px;
+    margin-top: -10px;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 350px;
+    background-image: url('images/logo2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    
+}
+
+.tabs{
+    width: 1000px;
+    justify-content: center;
+    padding-top: 20px;
+    display: flex;
+
+}
+
+.tabs a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: white;
+}
+
+.banner{
+    display: flex;
+    min-height: 520px;
+    min-width: 100vw;
+    border: none;
+    margin-left: -10px;
+    margin-top: -80px;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('images/banner1.jpg') ;
+    background-position: center;
+    background-size: cover;
+    font-size: 20px;
+    color: white;
+    align-content: center;
+}
+.ban-wrap{
+    width: 100%;
+    height: 520px;
+    text-align: center;
+}
+.line1{
+    margin-top: 130px;
+    margin-left: -650px;
+    font-size: 20px;
+    font-family: 'Oswald',sans-serif ;
+    margin-bottom: -180px;
+
+}
+.line2{
+    font-size: 180px;
+    font-family: 'Oswald',sans-serif ;
+    margin-bottom: -30px;
+}
+.line3{
+    font-size: 20px;
+}
+
+.orange{
+    color: orange;
+    text-decoration: none;
+    display: inline;
+}
+.green{
+    color: greenyellow;
+    text-decoration: none;
+    display: inline;
+}
+.CTA{
+    margin-top: 50px;
+    height: 40px;
+    width: 25%;
+    border: none;
+    border-radius: 25px;
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+
+@media (max-device-width:767px)  {
+    body{
+        background-color:pink;
+    }
+    .header{
+        min-height: 100px;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .tabs{
+        display: none;
+    }
+    .banner{
+        margin-top: -100px;
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width:1023px)  {
+    body{
+        background-color: yellow;
+    }
+    .header{
+        height: 80px;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .tabs{
+        display: none;
+    }
+   
+}
+@media only screen and (min-device-width: 1024px) {
+    body{
+        background-color: red;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+  
+}
+@media only screen and (min-device-width: 1440px) {
+    body{
+        background-color: blue;
+    }
+    .logo{
+        margin-left: 180px;
+    }
+
+    
+}
+
