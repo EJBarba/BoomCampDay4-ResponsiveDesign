@@ -168,7 +168,7 @@ div{
 
 
   .flex-container-1 {
-    padding: 0;
+    padding: 20px;
     margin: 0;
     list-style: none;
     display: flex;
@@ -181,13 +181,12 @@ div{
   .flex-item-1 {
     background: tomato;
     padding: 5px;
-    width: 200px;
+    width: auto;
     height: auto;
     border: 5px solid white;
-    line-height: 150px;
     color: white;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 24px;
     text-align: center;
   }
   
@@ -199,8 +198,21 @@ div{
   .left-child-1{
     flex: 1;
     border: black solid 5px;
+    padding: 10px;
   }
-  
+
+  .right-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .right-child-1{
+    border: black solid 5px;
+    padding: 10px;
+  }
+
+
 @media (max-device-width:767px)  {
     body{
         background-color:pink;
