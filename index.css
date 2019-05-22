@@ -351,6 +351,13 @@ div{
     margin-left: -10px;
 }
 
+.footer-wrapper{
+   width: auto;
+   position: absolute;
+   margin-left: -600px;
+   color: #40666c;
+}
+
 @media (max-device-width:767px)  {
     body{
         background-color:pink;
