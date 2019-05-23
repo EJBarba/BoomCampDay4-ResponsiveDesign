@@ -436,12 +436,21 @@ div{
 }
 
 .pad-around{
-  padding: 40px 200px 2px 30px;
+  padding: 10px 200px 2px 20px;
 }
+
+.pad-around-2{
+  padding: 10px 200px 2px 10px;
+}
+
+
 
 .city{
     font-size: 50px;
     
+}
+.city-p{
+  font-size: 14px;
 }
 
 .pic-office{
