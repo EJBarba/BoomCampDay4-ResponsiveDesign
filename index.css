@@ -79,25 +79,32 @@ div{
     font-family: 'Oswald',sans-serif ;
     margin-bottom: -30px;
 }
-.line3{
-    font-size: 20px;
-    font-weight: 500px;
+.line-3-wrap{
+  font-weight: 500;
+  font-size: 20px;
+}
+.line-3{
+  font-weight: 500;
+  font-family: 'Oswald',sans-serif ; 
+  font-size: 20px;
 }
 
+
+
 .orange{
-    color: orange;
+    color: #ff803a;
     text-decoration: none;
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
 }
 .green{
-    color: #bcd436;
+    color: #bdd436;
     text-decoration: none;
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
 }
 .CTA{
-    margin-top: 50px;
+    margin-top: 10px;
     height: 40px;
     width: 25%;
     border: none;
@@ -333,23 +340,23 @@ div{
     background-size: cover;
 }
 .pic1{
-    background-image: url('https://source.unsplash.com/random/400x400');
+    background-image: url('images/ISI-portfolio.png');
 }
 
 .pic2{
-    background-image: url('https://source.unsplash.com/random/500x500');
+    background-image: url('images/VG-portfolio.png');
 }
 .pic3{
-    background-image: url('https://source.unsplash.com/random/600x600');
+    background-image: url('images/PCS-portfolio.png');
 }
 .pic4{
-    background-image: url('https://source.unsplash.com/random/700x700');
+    background-image: url('images/AM-portfolio.png');
 }
 .pic5{
-    background-image: url('https://source.unsplash.com/random/800x800');
+    background-image: url('images/CI-portfolio.png');
 }
 .pic6{
-    background-image: url('https://source.unsplash.com/random/900x900');
+    background-image: url('images/NCMA-portfolio.png');
 }
 
 .column-layout-3 {
